@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WebBased2DFD
+Bundle-SymbolicName: WebBased2DFD
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: mdpa.dfd.dataflowdiagram;bundle-version="0.1.0",
+ mdpa.dfd.datadictionary.edit;bundle-version="1.0.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.18.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: WebBased2DFD

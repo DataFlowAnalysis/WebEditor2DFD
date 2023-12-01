@@ -105,10 +105,10 @@ public class Parser{
 			pin.setId(id);
 			if (portJson.get("type").equals("port:dfd-input")) {
 				pin.setEntityName(node.getEntityName() + "InPin");
-				behaviour.getIn().add(pin);
+				behaviour.getInPin().add(pin);
 			} else {
 				pin.setEntityName(node.getEntityName() + "OutPin");
-				behaviour.getOut().add(pin);
+				behaviour.getOutPin().add(pin);
 			}
 			mapIdToPin.put(id, pin);
 			mapPinIdToNode.put(id, node);
